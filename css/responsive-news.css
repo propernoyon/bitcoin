@@ -98,11 +98,13 @@
     width: 37px;
     height: 37px;
     right: 14px;
+	display: none !important;
 }
 #scroll-up {
     bottom: 22px;
     right: 16px;
     font-size: 33px;
+	display:none;
 }
 /* scroll up button end*/
    }
