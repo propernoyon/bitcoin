@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: 'Poppins','Barlow Condensed', sans-serif;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    
+    border: 1;
+   border-top: 1px solid #e0e0e0; 
+    
+    padding: 0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.container{
+    padding: 0px 100px;
+}
+/* header start */
+
+.header{
+    background-color: #181818;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    padding: 15px;
+}
+.ul-menu ul{
+    display: flex;
+  
+}
+.ul-menu ul li a{
+    color: #707070;;
+    padding: 0px 10px;   
+}
+.ul-menu ul li a:hover{
+    color: #fff;
+}
+/* dropdown menu */
+
+.ul-menu ul li ul{
+    display: none;
+}
+.ul-menu ul li:hover ul{
+    display: block;
+    position: absolute;
+
+}
+.ul-menu ul li ul li{
+    line-height: 40px;
+    background-color: rgb(24, 24, 24);
+}
+
+
+
+
+/* dropdown menu */
+.search {
+    padding: 10px 5px;
+    font-size: 20px;
+}
+.search a{
+    color: #fff;
+    
+}
+/* header end */
+
+/* banner start */
+.banner{
+    background-image: url(../img/banner.png);
+    padding: 150px 100px;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 1px solid #b5a9a9;
+    background-position: center;
+}
+.banner-text p{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+
+}
+.banner-text span{
+    font-size: 20px;
+    display: block;
+    line-height: 26px;
+    color: #1b125f;
+    padding-bottom: 35px;
+}
+
+.banner-text a{
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    font-size: 12px;
+    border-radius:5px; 
+}
+.banner-text a:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.responsive-menu{
+    display: none;
+}
+/* banner end */
+/* home service start */
+.home-service{
+    background-color: #f1f1f1;
+}
+.home-service .container{
+    text-align: center;
+    padding: 30px 0px;
+}
+.home-service .container p{
+    color: #616161;
+}
+.home-service .container span{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    display: block;
+
+}
+/* home service end */
+/* bitcoin info part start */
+.bitcoin-info{
+    background-color: #fff;
+}
+.bit-info{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 50px 0px;
+}
+.info1 p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.info1 span{
+    font-size: 15px;
+    line-height: 21px;
+}
+/* bitcoin info part end */
+/* why choose part start */
+.why-choose{
+    background-color: #f1f1f1;
+}
+.flex-choose{
+display: grid;
+grid-template-columns: 50% 50%;
+padding: 50px 0px;
+}
+.choose-txt{
+    padding-top: 80px;
+}
+.choose-txt p{
+color: #7b7b7b;
+padding-bottom: 20px;
+}
+.choose-txt span{
+    font-size: 50px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.choose-txt a{
+    display: inline-block;
+    background-color: #000;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.choose-icon{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+.icon4{
+    text-align: center;
+}
+#icon4-id{
+    font-size: 40px;
+}
+.icon4 p{
+    font-size: 20px;
+    padding-bottom: 25px;
+    font-weight: 100;
+}
+.icon4 span{
+    font-size: 13px;
+    padding: 29px;
+    display: block;
+    line-height: 20px;
+}
+
+/* why choose part end */
+/* bitcoin expart part start */
+.meet-team{
+    background-color: #fff;
+}
+.meet-team-text{
+text-align: center;
+padding: 50px 0px;
+}
+.meet-team-text p{
+color: #8c8383;
+}
+.meet-team-text span{
+    font-size: 30px;
+    padding-top: 5px;
+    display: block;
+    font-weight: bold;
+}
+.meet-team-img{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center; 
+    padding-bottom: 50px;
+}
+.meet-img .meet-img-txt{
+    border: 1px solid #dcd1d1;
+    border-top: 0;
+    border-radius: 35px 0px 35px 0px;
+    box-sizing: border-box;
+    background-color: rgb(236, 221, 221);
+}
+.meet-img .meet-img-txt:hover{
+    background-color: rgb(56, 8, 8);
+    color: #fff;
+    transition-duration: 0.5s;
+}
+.meet-img-txt h5{
+    padding-top: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.meet-img-txt p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #b5a9a9;
+}
+.meet-img-txt span{
+    font-size: 13px;
+    line-height: 22px;
+    padding: 25px 0px;
+    display: block;
+}
+
+.meet-social-icon{
+    padding-bottom: 35px;
+}
+#meet-soical{
+padding: 0px 5px;
+color: #d2d2d2;
+}
+#meet-soical:hover{
+    color: rgb(247, 210, 0);
+}
+/* bitcoin expart part end */
+/* about-bitcoin end */
+
+/* counter start */
+.counter{
+    background-color: #181818;
+    
+}
+.counter-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.item1{
+    text-align: center;
+}
+ .item1 span {
+    font-size: 60px;
+    color: #fab915;
+    font-weight: 100;
+}
+.item1 span:hover{
+    color: rgb(3, 124, 13);
+}
+.item1 h5{
+    padding-top: 25px;
+    display: block;
+    color: #5e5e5e;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.item1 p{
+    font-size: 35px;
+    padding-top: 10px;
+    color: #fff;
+}
+.item1 p:hover{
+    color: #fab915;
+}
+/* counter end */
+/* about-bitcoin start */
+.about-bitcoin{
+    background-color: #f1f1f1;
+}
+.bitcoin-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.bitcoin-flex .txt-part{
+
+}
+ 
+.bitcoin-flex .txt-part h4{
+    font-weight: 100;
+    font-size: 1em;
+    padding-bottom: 5px;
+}
+.bitcoin-flex .txt-part p{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 25px;
+
+}
+.bitcoin-flex .txt-part span{
+    font-weight: 100;
+    line-height: 24px;
+    font-size: 13px;
+    display: block;
+    padding-bottom: 20px;
+}
+.bitcoin-flex .txt-part a{
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.bitcoin-flex .txt-part a:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.bitcoin-flex .img-part{
+
+}
+/* about-bitcoin end */
+/* footer part start */
+.footer{
+    background-color: #181818;
+}
+.adress{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    text-align: center;
+}
+#footer-social{
+    color: #e0a715;
+}
+.email{
+    color: #6b6262;
+    border-bottom: 1px solid;
+    padding: 25px 0px;
+    border-right: 1px solid;
+}
+.email:hover{
+    color:#087511 ;
+}
+.email:last-child{
+    border-right: 0;
+}
+
+.email span{
+    color: #fff;
+    padding: 0px 5px;
+}
+.footer-about{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 50px 0px;
+    padding-left: 100px;
+    border-bottom: 1px solid #6f6969;
+}
+.footer-about .about p{
+    color: #fff;
+    padding-bottom: 23px;
+}
+.footer-about .about ul{
+    list-style: none;
+}
+.footer-about .about ul a li{
+    color: #736767;
+    font-size: 13px;
+    padding: 10px 0px;
+}
+.footer-about .about ul a li:hover{
+    color: #e0a715;
+}
+.footer-about .about input{
+    padding: 13px;
+    background-color: #242424;
+    border: #181818;
+    color: #fff;
+    font-family: 'Poppins','Barlow Condensed', sans-serif;
+}
+.footer-share{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 25px 0px;
+    text-align: center;
+}
+.footer-share .text{
+    color: #d2d2d2;
+    font-size: 13px;
+}
+/* footer part end */
+/* scroll-up button */
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    border-radius: 35px;
+    display: none;
+
+}
+#scroll-up {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    color: #fff;
+    font-size: 42px;
+}
+#scroll-up:hover{
+    color: #007a25;
+}
+/* scroll-up button */

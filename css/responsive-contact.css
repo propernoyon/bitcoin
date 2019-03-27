@@ -1,0 +1,112 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 650px)
+   {
+/* banner res start */
+.container {
+    padding: 0px 75px;
+}
+.logo a img{
+    width: 65%;
+}
+.menu{
+    display: none;
+}
+.responsive-menu{
+    display: block;
+}
+.responsive-menu .menu-icon {
+    color: #fff;
+    font-size: 20px;
+}
+.search {
+    position: absolute;
+    right: 50px;
+}
+.res-icon-block{
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    text-align: center;
+    background-color: #181818;
+    border-radius: 5px 5px 20px 20px;
+}
+.ul-menu ul{
+    flex-direction: column;
+    }
+    .ul-menu ul li{
+        padding: 10px;
+    }
+
+/* banner res end */
+.about-comment .container{
+    grid-template-columns: 100%;
+    padding-top: 40px;
+}
+.phone-email{
+    grid-template-columns: 100%; 
+}
+.text-area{
+    padding-top: 50px;
+}
+.text-area textarea{
+    height: 120px;
+    border-radius: 0px 20px 20px 0px;
+}
+.comment-part input{
+    border-radius: 30px;
+}
+.comment-part{
+    text-align: center;
+}
+.adress-text p{
+    padding-left: 0;
+}
+.adress-text span{
+    padding-left: 0;
+}
+.adress-text{
+    text-align: center;
+}
+.adress-text .about-social{
+    padding-left: 9%;
+}
+/* footer start */
+.adress{
+    grid-template-columns: 100%;
+    text-align: unset;
+}
+.email {
+    padding: 20px 15px;
+    font-size: 14px;
+}
+.footer-about {
+    grid-template-columns: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.footer-share {
+    grid-template-columns: 100%;
+    padding: 10px;
+}
+.footer-share .text {
+    padding-bottom: 15px;
+}
+
+/* footer end */
+/* scroll up button start*/
+#return-to-top {
+    width: 37px;
+    height: 37px;
+    right: 14px;
+}
+#scroll-up {
+    bottom: 22px;
+    right: 16px;
+    font-size: 33px;
+}
+/* scroll up button end*/
+   }

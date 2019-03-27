@@ -1,0 +1,154 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 650px)
+   {
+/* banner res start */
+.container {
+    padding: 0px 75px;
+}
+.logo a img{
+    width: 65%;
+}
+.menu{
+    display: none;
+}
+.responsive-menu{
+    display: block;
+}
+.responsive-menu .menu-icon {
+    color: #fff;
+    font-size: 20px;
+}
+.search {
+    position: absolute;
+    right: 50px;
+}
+.res-icon-block{
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    text-align: center;
+    background-color: #181818;
+    border-radius: 5px 5px 20px 20px;
+}
+.ul-menu ul{
+    flex-direction: column;
+    }
+    .ul-menu ul li{
+        padding: 10px;
+    }
+
+/* banner res end */
+/* bitcoin-info start */
+.bit-info{
+    grid-template-columns: 100%;
+    text-align: center;
+}
+.info1{
+    padding-bottom: 25px;
+}
+.info1:last-child{
+    padding-bottom: 0;
+}
+/* bitcoin-info end */
+ /* flex-choose start */
+ .flex-choose{
+     grid-template-columns: 100%;
+ }
+ .choose-txt{
+    padding: 0;
+    text-align: center;
+ }
+ .choose-txt span{
+    font-size: 30px;
+    line-height: 36px;
+ }
+ .choose-txt a{
+     border-radius: 10px;
+ }
+ .choose-icon{
+    padding-top: 30px;
+    grid-template-columns: 100%;
+ }
+ .icon4 span{
+     padding-top: 0;
+ }
+ .icon4 {
+    background-color: #e6deef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+ }
+ /* flex-choose end */
+ /* meet-team start */
+ .meet-img img{
+    width: 100%;
+}
+.meet-img{
+    padding-bottom: 30px;
+}
+.meet-social-icon{
+    padding-bottom: 10px;
+}
+.meet-team-img{
+    grid-template-columns: 100%;
+}
+ /* meet-team end */
+
+ /* counter start */
+ .counter-flex{
+     flex-direction: column;
+ }
+ .item1 {
+    padding-bottom: 30px;
+}
+ /* counter end */
+ /* about bitcoin start */
+ .bitcoin-flex{
+     flex-direction: column;
+ }
+ .bitcoin-flex .txt-part{
+     text-align: center;
+     padding-bottom: 30px;
+ }
+.img-part img{
+width: 100%;
+}
+ /* about bitcoin end*/
+ /* footer start */
+.adress{
+    grid-template-columns: 100%;
+    text-align: unset;
+}
+.email {
+    padding: 20px 15px;
+    font-size: 14px;
+}
+.footer-about {
+    grid-template-columns: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.footer-share {
+    grid-template-columns: 100%;
+    padding: 10px;
+}
+.footer-share .text {
+    padding-bottom: 15px;
+}
+
+/* footer end */
+/* scroll up button start*/
+#return-to-top {
+    width: 37px;
+    height: 37px;
+    right: 14px;
+}
+#scroll-up {
+    bottom: 22px;
+    right: 16px;
+    font-size: 33px;
+}
+/* scroll up button end*/

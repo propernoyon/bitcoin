@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: 'Poppins','Barlow Condensed', sans-serif;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    
+    border: 1;
+   border-top: 1px solid #e0e0e0; 
+    
+    padding: 0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.container{
+    padding: 0px 100px;
+}
+/* header start */
+
+.header{
+    background-color: #181818;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    padding: 15px;
+}
+.ul-menu ul{
+    display: flex;
+  
+}
+.ul-menu ul li a{
+    color: #707070;;
+    padding: 0px 10px;   
+}
+.ul-menu ul li a:hover{
+    color: #fff;
+}
+/* dropdown menu */
+
+.ul-menu ul li ul{
+    display: none;
+}
+.ul-menu ul li:hover ul{
+    display: block;
+    position: absolute;
+
+}
+.ul-menu ul li ul li{
+    line-height: 40px;
+    background-color: rgb(24, 24, 24);
+}
+
+
+
+
+/* dropdown menu */
+.search {
+    padding: 10px 5px;
+    font-size: 20px;
+}
+.search a{
+    color: #fff;
+    
+}
+.responsive-menu{
+    display: none;
+}
+/* header end */
+/* home service start */
+.home-service{
+    background-color: #f1f1f1;
+}
+.home-service .container{
+    text-align: center;
+    padding: 30px 0px;
+}
+.home-service .container p{
+    color: #616161;
+}
+.home-service .container span{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    display: block;
+
+}
+/* home service end */
+/* about-comment start */
+.about-comment
+{
+    background-color: #fff;
+}
+.about-comment .container{
+    display: grid;
+    grid-template-columns: 58% 35%;
+    padding: 100px;
+    grid-gap: 4%;
+}
+.phone-email{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5%;
+}
+.comment-part input{
+    border: none;
+    background-color: #f1f1f1;
+    padding: 15px;
+    font-family: 'Poppins','Barlow Condensed', sans-serif;
+    margin-bottom: 15px;
+
+}
+.text-area textarea{
+    background-color: #f1f1f1;
+    width: 99.5%;
+    height: 217px;
+    border: 0;
+    font-family: 'Poppins','Barlow Condensed', sans-serif;
+}
+.text-area{
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+.comment-part a{
+    background-color: #fab915;
+    padding: 10px 15px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 15px;
+   
+}
+.adress-text{
+    background-color:  #fab915;
+}
+.adress-text p{
+    padding-left: 14%;
+    font-weight: bold;
+    padding-top: 8%;
+
+}
+
+.adress-text span{
+    display:block;
+    padding-left: 20%;
+    padding-top: 3%;
+    line-height: 25px;
+}
+.adress-text .about-social{
+    padding-left: 20%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+#social-edit{
+    color: #6f6d6d;
+    padding: 5px;
+}
+#social-edit:hover{
+    color: #000;
+}
+
+/* about-comment end */
+/* footer part start */
+.footer{
+    background-color: #181818;
+}
+.adress{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    text-align: center;
+}
+#footer-social{
+    color: #e0a715;
+}
+.email{
+    color: #6b6262;
+    border-bottom: 1px solid;
+    padding: 25px 0px;
+    border-right: 1px solid;
+}
+.email:hover{
+    color:#087511 ;
+}
+.email:last-child{
+    border-right: 0;
+}
+
+.email span{
+    color: #fff;
+    padding: 0px 5px;
+}
+.footer-about{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 50px 0px;
+    padding-left: 100px;
+    border-bottom: 1px solid #6f6969;
+}
+.footer-about .about p{
+    color: #fff;
+    padding-bottom: 23px;
+}
+.footer-about .about ul{
+    list-style: none;
+}
+.footer-about .about ul a li{
+    color: #736767;
+    font-size: 13px;
+    padding: 10px 0px;
+}
+.footer-about .about ul a li:hover{
+    color: #e0a715;
+}
+.footer-about .about input{
+    padding: 13px;
+    background-color: #242424;
+    border: #181818;
+    color: #fff;
+    font-family: 'Poppins','Barlow Condensed', sans-serif;
+}
+.footer-share{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 25px 0px;
+    text-align: center;
+}
+.footer-share .text{
+    color: #d2d2d2;
+    font-size: 13px;
+}
+.meet-social-icon{
+    padding-bottom: 35px;
+}
+#meet-soical{
+padding: 0px 5px;
+color: #d2d2d2;
+}
+#meet-soical:hover{
+    color: rgb(247, 210, 0);
+}
+/* footer part end */
+/* scroll-up button */
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    border-radius: 35px;
+    display: none;
+
+}
+#scroll-up {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    color: #fff;
+    font-size: 42px;
+}
+#scroll-up:hover{
+    color: #007a25;
+}
+/* scroll-up button */
